@@ -1,9 +1,12 @@
 #include"main.h"
 
 /**
- *   
- * prints all natural numbers from n to 98, followed by a new line
+ * print_to_98 - print n to 98 counts
+ *           separated by comma, followed
+ *           by space and number should be
+ *           printed in order
  *
+ * @n: input
 */
 
 void print_to_98(int n)

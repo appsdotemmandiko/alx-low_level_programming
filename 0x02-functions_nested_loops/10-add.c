@@ -1,9 +1,12 @@
 #include"main.h"
 
 /**
- * 
- * adds two integers and returns the result
- * 
+ * add - add two integers
+ *
+ * @x: first input
+ * @y: second input
+ *
+ * Return: sum of x & y
 */
 
 int add(int x, int y)
