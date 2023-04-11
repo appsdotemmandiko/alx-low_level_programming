@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: print value of n
+ * Description: prints real value of n
  *
  * Return: Always 0 (Success)
 */
