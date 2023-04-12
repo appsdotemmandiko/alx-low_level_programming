@@ -18,11 +18,16 @@ void times_table(void)
 
 			prod = num * mul;
 			if (prod <= 9)
+			{
+				_putchar(prod + 48)
 				_putchar(' '); /*space for single digit*/
+			}
 			else
+			{	
 				_putchar((prod / 10) + 48); /*get the first digit*/
-
-			_putchar((prod % 10) + 48); /*append second digit*/
+				_putchar((prod % 10) + 48); /*append second digit*/
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
