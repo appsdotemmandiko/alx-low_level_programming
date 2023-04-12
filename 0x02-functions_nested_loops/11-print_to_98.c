@@ -1,12 +1,11 @@
 #include"main.h"
 
 /**
- * print_to_98 - print n to 98 counts
+ * print_to_98 - prints n to 98 in order
  *           separated by comma, followed
- *           by space and number should be
- *           printed in order
+ *           by space
  *
- * @n: input
+ * @n: input param
 */
 
 void print_to_98(int n)
