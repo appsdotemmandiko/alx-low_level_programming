@@ -3,10 +3,10 @@
 /**
  * _islower - checks if character is lowercase
  *
- * @c: checks input of function
+ * @c: input param to check
  *
  * Return: returns 1 if `c` is lowercase
- *         otherwise always 0 (Success)
+ *         otherwise Always 0 (Success)
 */
 
 int _islower(int c)
