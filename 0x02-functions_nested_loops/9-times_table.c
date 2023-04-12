@@ -19,7 +19,8 @@ void times_table(void)
 			prod = num * mul;
 			if (prod <= 9)
 			{
-				_putchar(prod + 48)
+				_putchar(prod + 48);
+				_putchar(',');
 				_putchar(' '); /*space for single digit*/
 			}
 			else
