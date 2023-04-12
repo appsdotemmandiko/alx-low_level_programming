@@ -11,26 +11,24 @@ void times_table(void)
 {
 	int num, mul, prod;
 
-	for (num = 0; num <= 9; ++num)
+	for (num = 0; num <= 9; num++)
 	{
-		_putchar(48);
-		for (mul = 1; mul <= 9; ++mul)
+		for (mul = 0; mul <= 9; mul++)
 		{
-			_putchar(',');
-			_putchar(' ');
 
 			prod = num * mul;
-
-			/*
-			 * put space if product is a single number
-			 * place the first digit if its two numbers
-			*/
 			if (prod <= 9)
-				_putchar(' ');
+			{
+				_putchar(prod + 48);
+				_putchar(',');
+				_putchar(' '); /*space for single digit*/
+			}
 			else
+			{	
 				_putchar((prod / 10) + 48); /*get the first digit*/
-
-			_putchar((prod % 10) + 48); /*get the second digit*/
+				_putchar((prod % 10) + 48); /*append second digit*/
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
