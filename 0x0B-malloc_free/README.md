@@ -1,5 +1,5 @@
-#Memory allocation in C
+# Memory allocation in C
 
-###Automatic and Dynamic Allocation
+### Automatic and Dynamic Allocation
 
-####Use std functions - malloc and free
+#### Use std functions - malloc and free
